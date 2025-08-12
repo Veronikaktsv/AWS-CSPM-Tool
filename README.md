@@ -42,12 +42,11 @@ Optionally, it can remediate these issues interactively.
 ---
 
 ## Usage
-
 Run the CSPM tool:
-
-    ```bash
+    ```
     python cspm_aws.py
-
+    ```
+    
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
