@@ -3,8 +3,8 @@
 This tool scans your AWS environment for common security misconfigurations and risks:
 
 - Detects publicly accessible S3 buckets  
-- Identifies IAM roles with AdministratorAccess policy attached  
-- Finds security groups with open inbound rules to the world (0.0.0.0/0)  
+- Identifies IAM roles with `AdministratorAccess` policy attached  
+- Finds security groups with open inbound rules to the world (`0.0.0.0/0`)  
 
 Optionally, it can remediate these issues interactively.
 
@@ -45,5 +45,10 @@ Optionally, it can remediate these issues interactively.
 
 Run the CSPM tool:
 
-```bash
-python cspm_aws.py
+    ```bash
+    python cspm_aws.py
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
